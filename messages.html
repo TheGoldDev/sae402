@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Message</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <div class="main">
+        <div class="side left">
+
+                <div class="audio">
+                    <div class="side ringer"></div>
+                    <div class="side volume up"></div>
+                    <div class="side volume down"></div>
+                </div>
+
+            </div>
+
+            <div class="iphone iphoneMess" id="iphone">
+                <div class="dash top"></div>
+
+                <div class="inner" id="inner">
+                    <div class="top">
+                        <div class="left">
+                            <p class="time">9:41</p>
+                        </div>
+                        <div class="center">
+                            <div class="mic">
+                            </div>
+
+                            <div class="cam">
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <ion-icon name="cellular" class="cellular"></ion-icon>
+
+                            <img src="Images/Icons/wifi.png" class="wifi">
+
+                            <img src="Images/Icons/battery.png" class="battery">
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <header>
+                            <span class="name"></span>
+                            <h2>Ethan</h2>
+                        </header>
+                        <div class="messages-wrapper">
+                            <div class="message from"> Salut mec, est-ce que t’as vu l’annonce qui dit qu’un criminel s'est évadé de prison ?</div>
+                            <div class="message to">Nan j’ai pas encore vu, t’as vu ça où ?</div>
+                            <div class="message from"> Vas sur X c’est le dernier tweet de la ville de Troyes.</div>
+                            <div class="message to">Att je vais regarder vite fait</div>
+                            <div class="message to">Wsh mais c’est un truc de malade, si ma mère était au courant elle me forcerait à fermer les rideaux, la porte à double tour etc etc… Tu connais ma mère haha! </div>
+                            <div class="message to">Nan mais gars c’est fou, en plus le mec qui s’est évadé est un malade mental.</div>
+                            <div class="message from">Azy en vrai balec du gars, on joue ce soir ?</div>
+                            <div class="message to">Azy je suis chaud je vais faire les courses je reviens tout à l’heure. Je suis là dans 1h environ  et Fortnite en vrai</div>
+                            <div class="message from">D'acc</div>
+                            <br><br><br><br>
+                            <div class="message to">C’est bon j’ai finis de ranger mes courses t’es toujours dispo ?</div>
+                            <div class="message from">Ouai tkt je me suis train un peu on va les démonter</div>
+                            <div class="message to">Mec t’es là tu mets grave du temps</div>
+                            <div class="message from">Bah mec j’ai plus de co chez moi et les plombs sautent toutes les 5 minutes. Je crois je vais pas pouvoir jouer ce soir</div>
+                            <div class="message to">Ha merde</div>
+                            <div class="message from">J’suis en 4g carrément ma box est morte je crois </div>
+                            <div class="message from">En plus le vie de ma mère j’ai entendu des bruits chelou dans le quartier je deviens parano à cause de l’évadé</div>
+                            <div class="message to">Bahaha tu vas finir dans un hôpital psychiatrique mdr. Faut que tu te détendes</div>
+                            <div class="message from">Je suis calme en vrai j’ai juste le seum de pas pouvoir jouer là</div>
+                            <div class="message from">Je vais regarder par la fenêtre pour voir si c’est les plombs de ma rue ou juste de chez moi</div>
+                            <br><br>
+                            <div class="message from">Mdrr c’est que chez moi les lampadaires de dehors sont allumés</div>
+                            <div class="message to">T’as pas de chances chef mais tranquille</div>
+                            <div class="message to">Essaie de couper des trucs chez toi pour pas que les plombs sautent, genre débranche le micro-ondes, le four, ton alarme à la limite et peut être ça va fonctionner.</div>
+                            <div class="message from">Yep en vrai balec de l’alarme, tout est fermer à clé chez moi personne peut rentrer donc trkl</div>
+                            <div class="message from">Mec j’ai jurer il y a un gars chez moi</div>
+                            <div class="message from">Y’a eu du bruit dans le garage là</div>
+                            <div class="message from">Gars je sais pas quoi faire</div>
+                            <div class="message from">Y’a eu des bruits de verre cassé je crois que quelqu’un à pété la vitre</div>
+                            <div class="message to">Mec, prends un couteau et va te cacher !</div>
+                            <div class="message from">C’est fait</div>
+                            <div class="message from">J’entend des bruits de pas, il doit pas être loin des escaliers</div>
+                            <div class="message from">Dès qu’il monte je le menace de le planter s’il part pas de chez moi</div>
+                            <div class="message to">Coupe le son de ton téléphone si c’est pas déjà fait et fait pas de bruits</div>
+
+
+
+                        </div>
+                        <div class="dots">
+                            <div class="dot"></div>
+
+                            <div class="dot active"></div>
+
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side right">
+
+                <!-- <a href="/index.html"> -->
+                <div class="side power" onclick="turnOffLock()"></div>
+                <!-- </a> -->
+
+            </div>
+
+            <script src="script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+</body>
+
+
+
+</html>
+
+<style>
+    .iphone.iphoneMess {
+        background-image: none;
+        background-color: #212124;
+    }
+</style>
+
+
+
+
+
+
+
+<script>
+
+</script>
